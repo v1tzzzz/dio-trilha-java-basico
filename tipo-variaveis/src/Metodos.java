@@ -20,16 +20,14 @@ public class Metodos {
     }
     // Existe em java na forma de pensar as execoes que um fazer um metodo tem, como o fato de em uma divisao voce nao poder dividir por 0, pois na matematica isso e impossivel 
     // Par isso no Java utilizamos o throws Exception
-    
+
     // Para fazer um metodo exclusivo para uma classe apenas precisamos usar o private ao inves do public ao criar o metodo 
-    
     // Problemas estruturais com os metodos pode acontecer exemplo:
+
     public void retornarSoma(){}
     
-    // Como pode ver o metodo tem como objetivo retornar uma soma, logo defirnir o metodo como void esta errado nao na sintaxe do java mas em boas praticas. Tornando em um erro "invisivel"
-
-    // Um metodo deve ter apenas um responsabilidade, ou seja se o metodo tiver o nome de coletarImprimir(), tem um problema pois ou ele coleta ou ele imprimi logo o nome correto ficaria coletarImpressao(), pois nesse caso ele coleta apenas.
-
-    // Algo haver com o a orientacao a objeto(POO) criar um metodo com varios parametros fica horrivel para escalabilidade, releitura e manutencao do codigo logo criar um objeto e colocar o objeto como parametro para o metodo e muito mais clean e efeciente 
+    /* Como pode ver o metodo tem como objetivo retornar uma soma, logo defirnir o metodo como void esta errado nao na sintaxe do java mas em boas praticas. Tornando em um erro "invisivel"
+        Um metodo deve ter apenas um responsabilidade, ou seja se o metodo tiver o nome de coletarImprimir(), tem um problema pois ou ele coleta ou ele imprimi logo o nome correto ficaria coletarImpressao(), pois nesse caso ele coleta apenas.
+        Algo haver com o a orientacao a objeto(POO) criar um metodo com varios parametros fica horrivel para escalabilidade, releitura e manutencao do codigo logo criar um objeto e colocar o objeto como parametro para o metodo e muito mais clean e efeciente */
 
 }
