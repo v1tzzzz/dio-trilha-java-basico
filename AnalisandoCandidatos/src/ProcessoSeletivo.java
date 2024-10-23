@@ -3,10 +3,25 @@ import java.util.concurrent.ThreadLocalRandom;
 public class ProcessoSeletivo {
     
     public static void main(String[] args) {
-     
-        selecaoCandidatos();
-        
 
+        imprimirSelecionados();
+
+    }
+    static void imprimirSelecionados() {
+        String[] candidatos = {"Luiz", "Felipe", "Pedro", "Joo", "Paulo"};
+        System.out.println("Imprimindo uma lista de candidatos informando o indice do elemento");
+
+        // se adicionar () entre a variavel pode executar codigos
+        // resultando em modificacoes na impressao
+        for(int indice=0; indice < candidatos.length; indice++) {
+            System.out.println("O candidato de numero: " + (indice+1) + " e o " + candidatos[indice]);
+        }
+
+        System.out.println("Modelo de impressao com o forEach ");
+
+        for(String candidato: candidatos) {
+            System.out.println("O candidato selecionado foi " + candidato);
+        }
     }
     static double valorPreentendido() {
         return ThreadLocalRandom.current().nextDouble(1800, 2200);
